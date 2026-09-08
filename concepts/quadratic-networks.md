@@ -8,7 +8,7 @@
 
 ## Definition
 
-**Quadratic networks** are two-layer networks with the activation $\sigma(x)=x^2$: *"we train a 2-layer quadratic network… with hidden width $K$, and no bias terms"* \[[1.2](#ref-1-2)\]. In the [grokking](grokking.md) corpus this is not an architecture for practice but a solvable toy: with a quadratic activation *"the full network function takes an even simpler form"* \[[1.1](#ref-1-1)\] — a cubic polynomial in the parameters — and the solution of [modular addition](modular-arithmetic.md) can therefore be written out in closed form rather than recovered by reverse engineering.
+**Quadratic networks** are two-layer networks with the activation $\sigma(x)=x^2$: <i>"we train a 2-layer quadratic network… with hidden width $K$, and no bias terms"</i> \[[1.2](#ref-1-2)\]. In the [grokking](grokking.md) corpus this is not an architecture for practice but a solvable toy: with a quadratic activation *"the full network function takes an even simpler form"* \[[1.1](#ref-1-1)\] — a cubic polynomial in the parameters — and the solution of [modular addition](modular-arithmetic.md) can therefore be written out in closed form rather than recovered by reverse engineering.
 
 ## Elaboration
 
@@ -16,7 +16,7 @@
 
 **The first line: an analytic solution.** The weights that compute the sum modulo $p$ are written out in formulas — cosines with frequencies $2\pi k/p$ and sets of phases \[[1.1](#ref-1-1)\]. This is the only case in the corpus where the generalising solution is known exactly rather than analysed after the fact; [Fourier features](fourier-features-circuits.md) here are not a find but a consequence of the construction. The price is that the conclusions are tied to MSE, a two-layer MLP and this activation.
 
-**The second line: sample-complexity bounds.** The claim that the task is hard in the [kernel regime](neural-tangent-kernel-ntk.md) is complemented by a positive half: *"two-layer quadratic networks that achieve zero training loss with bounded $\ell_{\infty}$ norm generalize well with substantially fewer training points"*, and such networks are findable by gradient descent with small $\ell_{\infty}$ regularisation \[[1.3](#ref-1-3)\]. Here quadraticity is a condition of the theorem, not a convenience of exposition: it is exactly what allows the set of zero-error solutions to be described.
+**The second line: sample-complexity bounds.** The claim that the task is hard in the [kernel regime](neural-tangent-kernel-ntk.md) is complemented by a positive half: <i>"two-layer quadratic networks that achieve zero training loss with bounded $\ell_{\infty}$ norm generalize well with substantially fewer training points"</i>, and such networks are findable by gradient descent with small $\ell_{\infty}$ regularisation \[[1.3](#ref-1-3)\]. Here quadraticity is a condition of the theorem, not a convenience of exposition: it is exactly what allows the set of zero-error solutions to be described.
 
 **The third line: the geometry of the landscape.** [Singular learning theory](singular-learning-theory.md) is applied to grokking on quadratic networks as well — as *"a basin-selection perspective on grokking"*, where the local learning coefficient ranks competing near-zero-loss basins \[[1.4](#ref-1-4)\]. The reason for the choice is the same: for a quadratic network the solution set is a known algebraic variety, and the degeneracy is computed rather than guessed at.
 

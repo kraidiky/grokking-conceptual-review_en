@@ -73,4 +73,4 @@ BY-SA papers inherit the licence of the original even without that caveat.
 Short quoted fragments of papers in the excerpt cards remain the right of their
 authors and are given under the right of quotation.
 
-A snapshot of the working corpus as of 2026-09-06.
+A snapshot of the working corpus as of 2026-09-08.
