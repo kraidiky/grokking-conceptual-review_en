@@ -3,7 +3,7 @@
 A conceptual literature review of grokking — the delayed generalization of
 neural networks — in the form of a card wiki. The primary carrier of the
 knowledge is the cards: concept cards (90) and paper cards
-(172, of which 103 are full cards and 69 are
+(173, of which 103 are full cards and 70 are
 publishable excerpts), plus external works carrying relevant observations
 (46).
 
@@ -73,4 +73,4 @@ BY-SA papers inherit the licence of the original even without that caveat.
 Short quoted fragments of papers in the excerpt cards remain the right of their
 authors and are given under the right of quotation.
 
-A snapshot of the working corpus as of 2026-09-08.
+A snapshot of the working corpus as of 2026-10-05.
