@@ -8,7 +8,7 @@ The link format: `arxivid: ["verbatim English quote"](../papers/<folder>/origina
 
 ## 1. Phenomena
 
-### [Grokking / delayed generalization](grokking.md) — 162 papers
+### [Grokking / delayed generalization](grokking.md) — 163 papers
 
 The phenomenon of delayed generalisation: a network first fits the training sample almost perfectly at a low test accuracy, and after orders of magnitude more training the test accuracy rises abruptly. The term and the phenomenon were introduced by Power et al. (2022).
 
@@ -224,7 +224,7 @@ Generalisation to structurally novel inputs, where the training sample is explai
 
 ## 4. Training and optimisation factors
 
-### [Weight decay](weight-decay.md) — 100 papers
+### [Weight decay](weight-decay.md) — 101 papers
 
 A penalty proportional to the square of the L2 norm of the weights (equivalent to a component-wise decay of the weights at every step); the corpus's main regulariser — both the speed and the very onset of grokking are tied to it in most settings.
 
@@ -250,7 +250,7 @@ The initial weight norm of a network, set by a factor applied to the standard sc
 
 An open dispute of the corpus: whether regularisation is a necessary condition of grokking; directly opposite experimental answers have been collected, each honestly obtained in its own setting.
 
-### [Learning rate](learning-rate.md) — 30 papers
+### [Learning rate](learning-rate.md) — 31 papers
 
 The scale of the weight update step; one of the control parameters — alongside weight decay, the batch size and the data fraction — on which it depends whether delayed generalisation sets in, and how fast.
 
@@ -278,13 +278,13 @@ A weight decay applied not to all the parameters: the embeddings, the biases and
 
 The question of in which direction, and by what law, the strength of the weight decay shifts the grokking — one of the few points of the corpus where the empirical evidence formally contradicts itself.
 
+### [Architectural inductive bias](architectural-inductive-bias.md) — 5 papers
+
+A preference among solutions built into the network before training: by the topology of the residual stream, by the normalisation, by the way the tokens are mixed. The delay can be bypassed by architecture, but only when its preferences agree with the symmetry of the task — the negative control on a non-commutative group shows exactly that.
+
 ### [Overparameterization / depth](overparameterization-depth.md) — 5 papers
 
 An excess of parameters relative to the data, and the number of layers, as control quantities. Depth acts non-monotonically: the dip at intermediate depth is cured not by layers but by stabilisation; over-parameterisation is a usual condition of the experiments rather than a necessary part of the phenomenon.
-
-### [Architectural inductive bias](architectural-inductive-bias.md) — 4 papers
-
-A preference among solutions built into the network before training: by the topology of the residual stream, by the normalisation, by the way the tokens are mixed. The delay can be bypassed by architecture, but only when its preferences agree with the symmetry of the task — the negative control on a non-commutative group shows exactly that.
 
 ###### cat-5
 
@@ -330,7 +330,7 @@ A family of diagnostics based on the spectra of a network's internal matrices (S
 
 A methodology for establishing the causal rather than the correlational role of components: a frequency, a circuit or a feature is deliberately removed or substituted and the effect on the network's behaviour is measured.
 
-### [Grokking time](grokking-time.md) — 18 papers
+### [Grokking time](grokking-time.md) — 19 papers
 
 The delay between the fitting of the training sample and the onset of generalisation — the quantity by which the corpus compares interventions. It is defined operationally through thresholds, and which method turns out to be faster depends on the choice of definition (first crossing against stable grok) and of units (steps, seconds, FLOPs).
 
@@ -374,7 +374,7 @@ Physically motivated descriptions of grokking through a few macroscopic quantiti
 
 The implicit preference of gradient descent on separable data: among the interpolating solutions the one with the maximal margin is chosen; in the corpus this is used to explain the second, slow period of training under grokking.
 
-### [Generalization bounds](generalization-bounds.md) — 18 papers
+### [Generalization bounds](generalization-bounds.md) — 19 papers
 
 Formally provable estimates of generalising ability: on the generalisation error, on the sample complexity or — applied to grokking — on the length of the delay before generalisation.
 
@@ -790,3 +790,11 @@ The entries of this category are stubs: a name, an English term and the quotes a
 ### Zero-sum gradient constraint — 0 papers
 
 - 2605.06152: [`"This breaks the zero-sum constraint of gradients across classes"`](../papers/2605.06152.grokking-or-glitching-how-low-precision-drives-slingshot-loss-spikes/original/2605.06152.grokking-or-glitching-how-low-precision-drives-slingshot-loss-spikes.md#p1-2) — [in the card](../papers/2605.06152.grokking-or-glitching-how-low-precision-drives-slingshot-loss-spikes/original/2605.06152.grokking-or-glitching-how-low-precision-drives-slingshot-loss-spikes.md#p1-2)
+
+###### sec-local-approximate-homogeneity
+
+### Approximate and local approximate homogeneity — 1 papers
+
+Boundedness of the Euler-equation residual instead of exact homogeneity; the local degree may depend on the parameter region and hidden inputs (Definitions 5–6 of Wang et al.).
+
+- 2609.07755: [`"In some situations, a single global degree may be too restrictive. Hence, we localize the preceding condition by allowing the effective degree to depend on the region where the function is evaluated."`](../papers/2609.07755.a-theoretical-analysis-of-generalization-dynamics-in-neural-networks-under-gradient-descent-with-weight-decay/2609.07755.a-theoretical-analysis-of-generalization-dynamics-in-neural-networks-under-gradient-descent-with-weight-decay.card.md#p15-11) — [in the card](../papers/2609.07755.a-theoretical-analysis-of-generalization-dynamics-in-neural-networks-under-gradient-descent-with-weight-decay/2609.07755.a-theoretical-analysis-of-generalization-dynamics-in-neural-networks-under-gradient-descent-with-weight-decay.card.md#p15-11)

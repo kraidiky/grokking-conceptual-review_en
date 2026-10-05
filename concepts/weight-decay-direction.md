@@ -1,6 +1,6 @@
 # The direction of the weight-decay effect
 
-[selective-weight-decay](selective-weight-decay.md) ← previous card, next → [Overparameterisation and depth](overparameterization-depth.md)
+[selective-weight-decay](selective-weight-decay.md) ← previous card, next → [architectural-inductive-bias](architectural-inductive-bias.md)
 
 [Concept card index](index.md), category: [4. Training and optimisation factors](index.md#cat-4)\
 → Next category: [Grokfast / gradient low-pass filtering](gradient-low-pass-filtering.md)\

@@ -19,7 +19,7 @@
 2307.05782	1238	2026-08-14 05:25 UTC	-	Lectures on LLMs; Power is only in the bibliography, grokking is not discussed	-
 2111.02080	1136	2026-08-14 05:25 UTC	-	In-context learning as Bayesian inference; Power is mentioned in passing about overfitting	-
 2209.11895	981	2026-08-14 05:25 UTC	-	Induction heads and in-context learning; grokking only as an analogy for a phase transition in related work	-
-2301.05217	941	2026-08-14 05:25 UTC	=card	Progress measures for grokking via mechanistic interpretability	141
+2301.05217	941	2026-08-14 05:25 UTC	=card	Progress measures for grokking via mechanistic interpretability	143
 2212.07677	843	2026-08-14 05:25 UTC	=ext	Shows that transformers on in-context regression grok when the lr/batch are tuned — a new observation	-
 2304.15004	740	2026-08-14 05:25 UTC	-	On metrics and emergent abilities; Power is a background reference, grokking is not studied	-
 2305.18654	671	2026-08-14 05:25 UTC	-	On the compositionality of transformers; Power is only in the bibliography	-
@@ -29,17 +29,17 @@
 2403.10131	380	2026-08-14 05:25 UTC	-	RAFT/RAG; Power is mentioned in passing in a paragraph about memorization	-
 2202.07785	373	2026-08-14 05:25 UTC	-	Predictability and abruptness in large models; grokking does not occur in the text	-
 2504.20571	288	2026-08-14 05:24 UTC	=ext	1-shot RLVR: introduces post-saturation generalization and examines its relation to grokking experimentally	0
-2205.10343	281	2026-08-14 05:25 UTC	=card	Towards Understanding Grokking: An Effective Theory of Representation Learning	100
+2205.10343	281	2026-08-14 05:25 UTC	=card	Towards Understanding Grokking: An Effective Theory of Representation Learning	101
 2207.02098	249	2026-08-14 05:25 UTC	-	Neural networks and the Chomsky hierarchy; grokking is mentioned in one aside about long training	-
 2103.10948	228	2026-08-14 05:25 UTC	-	A survey of learning curves; grokking is not mentioned, Power is only in the bibliography	-
-2207.08799	208	2026-08-14 05:25 UTC	=card	Studies the phase transitions of SGD on sparse parity, reproduces grokking and explains it by hidden progress	59
+2207.08799	208	2026-08-14 05:25 UTC	=card	Studies the phase transitions of SGD on sparse parity, reproduces grokking and explains it by hidden progress	60
 2304.11158	194	2026-08-14 05:25 UTC	-	On the predictability of memorization in LLMs; Power is a passing reference, grokking is not studied	-
-2306.17844	178	2026-08-14 05:25 UTC	=card	Clock/Pizza: a mechanistic analysis of networks on modular addition, phase transitions between algorithms	28
+2306.17844	178	2026-08-14 05:25 UTC	=card	Clock/Pizza: a mechanistic analysis of networks on modular addition, phase transitions between algorithms	29
 2110.10090	173	2026-08-14 05:25 UTC	-	A theory of the inductive biases of self-attention; Power is only in the bibliography	-
 2303.13506	167	2026-08-14 05:25 UTC	-	The quantization model of scaling and emergence; grokking is not the paper's subject	-
-2302.03025	164	2026-08-14 05:25 UTC	=card	Reverse-engineering networks that grok group composition; a separate analysis of grokking and progress measures	34
+2302.03025	164	2026-08-14 05:25 UTC	=card	Reverse-engineering networks that grok group composition; a separate analysis of grokking and progress measures	35
 2502.17424	160	2026-08-14 05:24 UTC	-	Emergent misalignment; grokking is only a control experiment serving as an exception, the similarity is called superficial	-
-2210.01117	159	2026-08-14 05:25 UTC	=card	Omnigrok: Grokking Beyond Algorithmic Data	118
+2210.01117	159	2026-08-14 05:25 UTC	=card	Omnigrok: Grokking Beyond Algorithmic Data	119
 2210.03050	154	2026-08-14 05:25 UTC	-	A survey and taxonomy of generalization in NLP; Power is not cited substantively, grokking is not studied	-
 2411.00816	144	2026-08-14 05:25 UTC	-	CycleResearcher on automating the research cycle; grokking is not mentioned substantively	-
 2402.11004	136	2026-08-14 05:25 UTC	-	Studies phase transitions in ICL of Markov chains; Power is mentioned only in the related-work survey	-
@@ -50,30 +50,30 @@
 2404.07965	129	2026-08-14 05:25 UTC	-	Rho-1 and selective language modeling; grokking is mentioned in one line of a survey of training dynamics	-
 2212.04458	122	2026-08-14 05:25 UTC	=ext	Studies the memorization→generalization transition and the plateau; a separate appendix A.6 checks grokking	0
 2210.14891	117	2026-08-14 05:25 UTC	-	Broken neural scaling laws; Power's task is mentioned as an example of a sharp kink in a curve	-
-2310.06110	112	2026-08-14 05:25 UTC	=card	Grokking as the Transition from Lazy to Rich Training Dynamics	65
+2310.06110	112	2026-08-14 05:25 UTC	=card	Grokking as the Transition from Lazy to Rich Training Dynamics	67
 2406.11813	112	2026-08-14 05:25 UTC	-	The dynamics of acquiring factual knowledge during pretraining; Power is only in the bibliography	-
 2303.07971	110	2026-08-14 05:25 UTC	-	A theory of emergent ICL; grokking is mentioned in one phrase as a similar phenomenon	-
-2309.02390	110	2026-08-14 05:25 UTC	=card	Explaining grokking through circuit efficiency	83
+2309.02390	110	2026-08-14 05:25 UTC	=card	Explaining grokking through circuit efficiency	85
 2310.09336	110	2026-08-14 05:25 UTC	-	The compositional abilities of diffusion models; Power is a generic reference to abrupt emergence	-
 2403.15796	105	2026-08-14 05:25 UTC	-	Emergent abilities through the lens of pretraining loss; grokking is only a brief comparison	-
 2206.04817	98	2026-08-14 05:25 UTC	=card	The Slingshot Mechanism: An Empirical Study of Adaptive Optimizers and the Grokking Phenomenon	69
-2303.11873	91	2026-08-14 05:25 UTC	=card	A Tale of Two Circuits: Grokking as Competition of Sparse and Dense Subnetworks	54
+2303.11873	91	2026-08-14 05:25 UTC	=card	A Tale of Two Circuits: Grokking as Competition of Sparse and Dense Subnetworks	57
 2311.08360	90	2026-08-14 05:25 UTC	-	The transience of ICL in transformers; Power is present only in the bibliography	-
-2405.15071	90	2026-08-14 05:25 UTC	=card	Grokked Transformers are Implicit Reasoners: A Mechanistic Journey to the Edge of Generalization	16
+2405.15071	90	2026-08-14 05:25 UTC	=card	Grokked Transformers are Implicit Reasoners: A Mechanistic Journey to the Edge of Generalization	17
 2206.05862	86	2026-08-14 05:25 UTC	-	A guide to analysing AI x-risk; Power is an example of emergent functionality	-
-2301.02679	86	2026-08-14 05:25 UTC	=card	Grokking modular arithmetic	51
+2301.02679	86	2026-08-14 05:25 UTC	=card	Grokking modular arithmetic	53
 2402.09371	86	2026-08-14 05:25 UTC	-	Length generalization in addition; grokking is mentioned once as a "Eureka moment", not studied	-
-2311.18817	85	2026-08-14 05:25 UTC	=card	A theory of grokking: proves it through a dichotomy of early and late implicit biases	53
+2311.18817	85	2026-08-14 05:25 UTC	=card	A theory of grokking: proves it through a dichotomy of early and late implicit biases	54
 2212.09803	82	2026-08-14 05:25 UTC	-	The training trajectories of LLMs at different scales; Power is cited in passing about phase transitions	-
 2506.11613	79	2026-08-14 05:24 UTC	-	Emergent misalignment; grokking is only a background example of a phase transition in related work	-
 2211.12316	78	2026-08-14 05:25 UTC	=card	A separate section observing grokking in transformers on Boolean functions (Fig. 18-19)	6
 2305.18741	78	2026-08-14 05:25 UTC	=card	Introduces structural grokking: the hierarchical generalization of transformers under extremely long training	19
 2404.02418	66	2026-08-14 05:25 UTC	-	Task demands in the evaluation of LLMs; Power is a generic reference to emergence during training	-
-2303.06173	63	2026-08-14 05:25 UTC	=card	Unifies grokking and double descent, demonstrates model-wise grokking	42
+2303.06173	63	2026-08-14 05:25 UTC	=card	Unifies grokking and double descent, demonstrates model-wise grokking	43
 2303.00055	62	2026-08-14 05:25 UTC	-	The time scales of learning in two-layer networks; Power is only in the bibliography	-
 2305.08746	62	2026-08-14 05:25 UTC	-	BIMT for interpretability; grokking only in the related-work survey	-
 2306.15400	62	2026-08-14 05:25 UTC	-	Length generalization in arithmetic; Power is cited as in-distribution prior work	-
-2402.15555	61	2026-08-14 05:25 UTC	=card	Shows the ubiquity of grokking, introduces delayed robustness and an explanation through local complexity	28
+2402.15555	61	2026-08-14 05:25 UTC	=card	Shows the ubiquity of grokking, introduces delayed robustness and an explanation through local complexity	30
 2207.04785	60	2026-08-14 05:25 UTC	-	An attack on LWE with transformers; Power is mentioned in a survey of work on arithmetic	-
 2407.15720	59	2026-08-14 05:25 UTC	-	The compositionality of LLMs in ICL; Power is a background mention in related work	-
 2309.13401	58	2026-08-14 05:25 UTC	-	NPC tumour segmentation, domain adaptation; grokking is not mentioned at all	-
@@ -90,11 +90,11 @@
 2406.03445	44	2026-08-14 05:25 UTC	-	The mechanism of addition through Fourier features in LLMs; Power is only in the bibliography	-
 2406.14644	44	2026-08-14 05:25 UTC	-	A survey of data contamination; grokking is mentioned in a retelling of one other work	-
 2309.08632	43	2026-08-14 05:25 UTC	-	A satirical paper about pretraining on the test set; "grokking-like" is a joke, not a study	-
-2406.06158	43	2026-08-14 05:25 UTC	=card	A theory of the lazy/rich regimes: an unbalanced initialization shortens the time to grokking	2
+2406.06158	43	2026-08-14 05:25 UTC	=card	A theory of the lazy/rich regimes: an unbalanced initialization shortens the time to grokking	3
 2412.03782	43	2026-08-14 05:24 UTC	-	A position paper on the spectrum of in-context learning; Power is mentioned in passing	-
 2405.20233	42	2026-08-14 05:25 UTC	=card	Grokfast: Accelerated Grokking by Amplifying Slow Gradients	27
 2410.02984	42	2026-08-14 05:25 UTC	-	rLLC and the specialization of attention heads; grokking only in an enumeration of related work	-
-2310.02541	39	2026-08-14 05:25 UTC	=card	Proves grokking and benign overfitting in two-layer ReLU networks on XOR clusters	22
+2310.02541	39	2026-08-14 05:25 UTC	=card	Proves grokking and benign overfitting in two-layer ReLU networks on XOR clusters	23
 2311.07568	39	2026-08-14 05:25 UTC	=card	Explains analytically the Fourier features a network arrives at in the grokking setting	13
 2406.07515	39	2026-08-14 05:25 UTC	-	On model collapse and the verification of synthetic data; Power is mentioned as an example of a controlled setting	-
 2310.18208	38	2026-08-14 05:25 UTC	-	Column type annotation with LLMs; Power is cited as an example of an abrupt jump in ability	-
@@ -104,12 +104,12 @@
 2501.04697	38	2026-08-14 05:24 UTC	=card	Grokking at the Edge of Numerical Stability	26
 2308.15594	37	2026-08-14 05:25 UTC	=card	Learning the GCD with a transformer: observations about grokking of the primes and an analysis of "is this grokking"	10
 2503.21676	37	2026-08-14 05:24 UTC	-	The dynamics of fact acquisition and the plateau; grokking is mentioned in one phrase in the discussion	-
-2306.13253	36	2026-08-14 05:25 UTC	=card	Predicting Grokking Long Before it Happens: A look into the loss landscape of models which grok	24
+2306.13253	36	2026-08-14 05:25 UTC	=card	Predicting Grokking Long Before it Happens: A look into the loss landscape of models which grok	26
 2512.17351	36	2026-08-14 05:24 UTC	-	Architecture design and Canon layers; Power is only in the bibliography	-
 2112.03215	35	2026-08-14 05:25 UTC	-	A theory of epoch-wise double descent; grokking is named only as a direction for future work	-
 2405.19121	35	2026-08-14 05:25 UTC	-	Spectral-spatial GNNs; Power is cited in a list of works on interpretability	-
-2407.12332	34	2026-08-14 05:25 UTC	=card	Why Do You Grok? A Theoretical Analysis of Grokking Modular Addition	22
-2210.15435	32	2026-08-14 05:25 UTC	=card	Solvable models of grokking: a phase transition, critical exponents, the grokking time	25
+2407.12332	34	2026-08-14 05:25 UTC	=card	Why Do You Grok? A Theoretical Analysis of Grokking Modular Addition	24
+2210.15435	32	2026-08-14 05:25 UTC	=card	Solvable models of grokking: a phase transition, critical exponents, the grokking time	26
 2509.23024	32	2026-08-14 05:24 UTC	-	The geometry of LLM representations; grokking is mentioned in related work as an adjacent phenomenon	-
 2201.08924	31	2026-08-14 05:25 UTC	-	Neural collapse in the intermediate layers; Power in a general reference to training past the interpolation threshold	-
 2310.03262	31	2026-08-14 05:25 UTC	-	Predicting emergent abilities through PassUntil; grokking is mentioned in the hypothesis about circuits	-
@@ -122,7 +122,7 @@
 2310.16441	28	2026-08-14 05:25 UTC	=card	An analytical model of grokking in linear estimators, exact predictions of the grokking time	19
 2408.15417	28	2026-08-14 05:25 UTC	-	The geometry of representations under next-token prediction; Power is a passing reference to the benefit of long training	-
 2212.13881	27	2026-08-14 05:25 UTC	-	The mechanism of feature learning and the RFM; grokking is only in the bibliography, not studied	-
-2401.10463	27	2026-08-14 05:25 UTC	=card	The critical dataset size through the lens of grokking, a reproduction of grokking in language models	12
+2401.10463	27	2026-08-14 05:25 UTC	=card	The critical dataset size through the lens of grokking, a reproduction of grokking in language models	13
 2402.15175	27	2026-08-14 05:25 UTC	=card	Unified View of Grokking, Double Descent and Emergent Abilities: A Perspective from Circuits Competition	19
 2412.12069	27	2026-08-14 05:24 UTC	-	Neural networks for LHC amplitudes and uncertainties; Power is only in the bibliography	-
 2506.11015	27	2026-08-14 05:24 UTC	-	A chapter on the neuroscience of education; grokking only as an analogy for intuitive learning	-
@@ -181,10 +181,10 @@
 2305.19901	12	2026-08-14 05:25 UTC	-	Conformal regression; Power is mentioned only in the bibliography, grokking is not studied	-
 2403.06925	12	2026-08-14 05:25 UTC	=ext	Shows that sensitivity serves as a progress measure for grokking — a new observation about it	0
 2410.07041	12	2026-08-14 05:25 UTC	-	Studies example repetition; the authors explicitly separate their effect from grokking and do not study it	-
-2504.13292	12	2026-08-14 05:24 UTC	=card	Let Me Grok for You: Accelerating Grokking via Embedding Transfer from a Weaker Model	13
+2504.13292	12	2026-08-14 05:24 UTC	=card	Let Me Grok for You: Accelerating Grokking via Embedding Transfer from a Weaker Model	14
 2504.20752	12	2026-08-14 05:24 UTC	=card	Grokking in the Wild: Data Augmentation for Real-World Multi-Hop Reasoning with Transformers	6
 2510.17028	12	2026-08-14 05:24 UTC	-	On prompt sensitivity and calibration; Power is a background reference to the memorization→generalization transition	-
-2311.06597	11	2026-08-14 05:25 UTC	=card	Understanding Grokking Through A Robustness Viewpoint	10
+2311.06597	11	2026-08-14 05:25 UTC	=card	Understanding Grokking Through A Robustness Viewpoint	11
 2403.03942	11	2026-08-14 05:25 UTC	=card	The Heuristic Core: Understanding Subnetwork Generalization in Pretrained Language Models	1
 2410.04489	11	2026-08-14 05:25 UTC	=card	Grokking at the Edge of Linear Separability	9
 2412.04619	11	2026-08-14 05:24 UTC	+	Studies the data that induce structural grokking, the instability of delayed generalization	0
@@ -197,7 +197,7 @@
 2411.00247	10	2026-08-14 05:25 UTC	=card	Grokking is one of three cases; new empirical complexity metrics explain it	4
 2412.11521	10	2026-08-14 05:24 UTC	-	Learning symmetries, kernel theory; Power is cited as an example of simplicity bias	-
 2503.18114	10	2026-08-14 05:24 UTC	-	The geometry of representations, lazy/rich; grokking only in the survey of non-monotone learning	-
-2505.20172	10	2026-08-14 05:24 UTC	=card	A theoretical model of grokking: weight decay, two phases, Riemannian norm minimization — the paper's subject	6
+2505.20172	10	2026-08-14 05:24 UTC	=card	A theoretical model of grokking: weight decay, two phases, Riemannian norm minimization — the paper's subject	7
 2506.21551	10	2026-08-14 05:24 UTC	=card	Grokking in LLM Pretraining? Monitor Memorization-to-Generalization without Test	3
 2602.16746	10	2026-08-14 05:24 UTC	=card	Low-Dimensional and Transversely Curved Optimization Dynamics in Grokking	8
 2211.14085	9	2026-08-14 05:25 UTC	-	Positive-unlabeled learning with tensor networks; Power is only in the bibliography	-
@@ -301,7 +301,7 @@
 2512.12381	4	2026-08-14 05:24 UTC	-	The entropy collapse of intelligent systems; grokking is not mentioned	-
 2512.13568	4	2026-08-14 05:24 UTC	=ext	A superposition metric captures an abrupt consolidation of features at the grokking phase transition	1
 2602.03655	4	2026-08-14 05:24 UTC	-	Sequential composition of groups; Power in related work, grokking is not the paper's subject	-
-2606.17120	4	2026-08-14 05:23 UTC	=card	Noise-Driven Escape from Metastable Phases explains Grokking in Deep Neural Networks	2
+2606.17120	4	2026-08-24 13:07 UTC	=card	Noise-Driven Escape from Metastable Phases explains Grokking in Deep Neural Networks	2
 2210.05623	3	2026-08-14 05:25 UTC	-	IoT security and mutation testing; it has no bearing on grokking	-
 2304.10500	3	2026-08-14 05:25 UTC	-	Transformers for the typed lambda calculus; Power is only in the bibliography	-
 2307.09550	3	2026-08-14 05:25 UTC	+	The semantic landscape: grokking is explained as a percolation transition	0
@@ -318,7 +318,7 @@
 2510.00468	3	2026-08-14 05:24 UTC	=ext	The eNTK spectrum is applied to diagnose the grokking phase transition	0
 2511.04808	3	2026-08-14 05:24 UTC	-	The volumes of minima and generalization; grokking is not studied, Power is only in the references	-
 2512.25060	3	2026-08-14 05:24 UTC	-	The geometry of the representations of modular addition; grokking is only a background reference	-
-2601.19791	3	2026-08-14 05:24 UTC	=card	To Grok Grokking: Provable Grokking in Ridge Regression	1
+2601.19791	3	2026-08-14 05:24 UTC	=card	To Grok Grokking: Provable Grokking in Ridge Regression	2
 2602.01992	3	2026-08-14 05:24 UTC	-	The emergence of analogical reasoning; Power is a passing reference	-
 2602.08907	3	2026-08-14 05:24 UTC	-	A theory of positive distribution shift; Power is cited in the appendix	-
 2602.23696	3	2026-08-14 05:24 UTC	-	The geometry of AdamW trajectories; grokking is not the subject, the reference is in passing	-
@@ -597,10 +597,10 @@
 #   table's subject). Same columns, same count source (D1-A: S2 Graph API,
 #   /graph/v1/paper/batch, fetched 2026-08-24 13:07 UTC). This closes the gap
 #   where papers/index.md had no external count to show for these works.
-2201.02177	719	2026-08-24 13:07 UTC	=card	Grokking: Generalization Beyond Overfitting on Small Algorithmic Datasets	164
+2201.02177	719	2026-08-24 13:07 UTC	=card	Grokking: Generalization Beyond Overfitting on Small Algorithmic Datasets	169
 2310.17247	20	2026-08-24 13:07 UTC	=card	Grokking Beyond Neural Networks: An Empirical Exploration with Model Complexity	15
 2402.09469	22	2026-08-24 13:07 UTC	=card	Fourier Circuits in Neural Networks and Transformers: A Case Study of Modular Arithmetic with Multiple Inputs	1
-2405.19454	18	2026-08-24 13:07 UTC	=card	Deep Grokking: Would Deep Neural Networks Generalize Better?	11
+2405.19454	18	2026-08-24 13:07 UTC	=card	Deep Grokking: Would Deep Neural Networks Generalize Better?	12
 2406.05335	13	2026-08-24 13:07 UTC	=ext	Phase transition in large language models and the criticality of natural languages	-
 2408.08944	19	2026-08-24 13:07 UTC	=card	Information-Theoretic Progress Measures reveal Grokking is an Emergent Phase Transition	13
 2410.03569	4	2026-08-24 13:07 UTC	=card	Making Hard Problems Easier with Custom Data Distributions and Loss Regularization: A Case Study in Modular Arithmetic	0
@@ -614,3 +614,18 @@
 2603.01968	1	2026-08-24 13:07 UTC	=card	Intrinsic Task Symmetry Drives Generalization in Algorithmic Tasks	0
 2606.17120	4	2026-08-24 13:07 UTC	=card	Noise-Driven Escape from Metastable Phases explains Grokking in Deep Neural Networks	2
 2110.06914	127	2026-08-24 20:24 UTC	=ext	What Happens after SGD Reaches Zero Loss? -- A Mathematical Framework (externals/, task-018/019; not a grokking paper -- background theory cited by 2407.12332, 2505.20172, 2311.18817)	-
+
+# Added for task-042: Semantic Scholar /paper/arXiv:2609.07755, 2026-10-02.
+2609.07755	1	2026-10-02	=card	A Theoretical Analysis of Generalization Dynamics in Neural Networks under Gradient Descent with Weight Decay	0
+
+# Additional reviewed records from tasks 030 and 032 (September 2026).
+2206.05794	23	2026-09-04 15:10 UTC	-	Low-rank bias of SGD with weight decay (Galanti et al.); grokking appears only in one future-work sentence	-
+2410.13187	17	2026-09-04 15:10 UTC	-	aiXcoder-7B, an LLM for code; Power appears only in the bibliography	-
+2212.10723	3	2026-09-04 15:10 UTC	-	Predict+Optimize in energy; Power is not cited in the arXiv version, and the S2 citation comes from the journal record	-
+2406.11721	2	2026-09-04 15:10 UTC	-	Zero-shot generalization under instruction tuning; Power is not cited in the arXiv version	-
+2510.05432	1	2026-09-04 15:10 UTC	-	AInstein, LLM agents for research tasks; Power is not cited in the arXiv version	-
+2311.09058	0	2026-09-04 15:10 UTC	-	Constrained Parameter Regularization; Omnigrok appears only as a weight-rescaling baseline, and grokking is not discussed	-
+2305.13092	0	2026-09-04 15:10 UTC	-	Meta-learning with generated demonstrations on gSCAN; Power is not cited in the arXiv version	-
+2505.18623	0	2026-09-04 15:10 UTC	-	Neural compilation for GNNs on CLRS; the grokking experiment in Appendix D.1 is only extended BFS training to 50k steps with no accuracy change (97.55% versus 97.76%); delayed generalization was not observed, and grokking otherwise appears only in related work	-
+2408.12578	32	2026-09-04 18:05 UTC	=ext	A Percolation Model of Emergence (on OpenReview: The Concept Percolation Hypothesis): the subject is emergence under data scaling, rather than grokking; added to externals on 2026-09-04 for the distinction from grokking in Section 2 and the memorization-to-generalization transition in online learning without a training set	-
+2310.13061	31	2026-09-05 22:30 UTC	=card	To grok or not to grok: Disentangling generalization and memorization on corrupted algorithmic datasets — S2 does NOT list it as citing Power; absent from the main table; found through the bibliography of A Survey on Grokking (task-030) and carded on 2026-09-05	16

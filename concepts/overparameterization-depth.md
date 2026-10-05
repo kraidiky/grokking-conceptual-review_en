@@ -1,6 +1,6 @@
 # Overparameterisation and depth
 
-[The direction of the weight-decay effect](weight-decay-direction.md) ← previous card, next → [architectural-inductive-bias](architectural-inductive-bias.md)
+[architectural-inductive-bias](architectural-inductive-bias.md) ← previous card, next → —
 
 [Concept card index](index.md), category: [4. Training and optimisation factors](index.md#cat-4)\
 → Next category: [Grokfast / gradient low-pass filtering](gradient-low-pass-filtering.md)\

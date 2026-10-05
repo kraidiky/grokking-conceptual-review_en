@@ -1,6 +1,6 @@
 # Architectural inductive bias
 
-[Overparameterisation and depth](overparameterization-depth.md) ← previous card, next → —
+[The direction of the weight-decay effect](weight-decay-direction.md) ← previous card, next → [Overparameterisation and depth](overparameterization-depth.md)
 
 [Concept card index](index.md), category: [4. Training and optimisation factors](index.md#cat-4)\
 → Next category: [Grokfast / gradient low-pass filtering](gradient-low-pass-filtering.md)\
@@ -67,3 +67,7 @@ Against the strong form speaks an observation from another level of description:
 
 ###### ref-3-2
 **\[3.2\]** 2604.13123 — Truong et al., "Spectral Entropy Collapse as a Phase Transition in Delayed Generalisation". Nuance: the notion is named as a residue not covered by a single measure — entropy collapse happens without grokking too. [`"Entropy collapse is therefore **necessary but not sufficient** for generalisation in our setting; architectural inductive bias plays a role."`](../papers/2604.13123.spectral-entropy-collapse-as-a-phase-transition-in-delayed-generalisation/2604.13123.spectral-entropy-collapse-as-a-phase-transition-in-delayed-generalisation.card.md#p5-1).
+
+###### ref-3-3
+
+**\[3.3\]** 2609.07755 — Wang, Kevrekidis & Belkin 2026, “A Theoretical Analysis of Generalization Dynamics in Neural Networks under Gradient Descent with Weight Decay”. Architecture is connected to data geometry through local approximate homogeneity; this is a conditional bound, rather than an experimental comparison of architectures. [`"smaller diameters of the hidden nodes inside the cells generally lead to smaller approximate homogeneity errors, while more heterogeneous data require blocks with stronger local homogeneity."`](../papers/2609.07755.a-theoretical-analysis-of-generalization-dynamics-in-neural-networks-under-gradient-descent-with-weight-decay/2609.07755.a-theoretical-analysis-of-generalization-dynamics-in-neural-networks-under-gradient-descent-with-weight-decay.card.md#p17-5)

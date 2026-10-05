@@ -101,6 +101,10 @@ The applied reading: the time to grokking is what gets shortened. Interventions 
 ###### ref-3-9
 **\[3.9\]** 2603.05228 — Yildirim, "The Geometric Inductive Bias of Grokking: Bypassing Phase Transitions via Architectural Topology". Nuance: shortening the delay is set as a task in its own right rather than as a by-product. [`"Prior work on grokking—delayed generalization after memorization—has sought to shorten this delay through data augmentation or optimizer design"`](../papers/2603.05228.the-geometric-inductive-bias-of-grokking-bypassing-phase-transitions-via-architectural-topology/original/2603.05228.the-geometric-inductive-bias-of-grokking-bypassing-phase-transitions-via-architectural-topology.md#p1-2).
 
+###### ref-3-10
+
+**\[3.10\]** 2609.07755 — Wang, Kevrekidis & Belkin 2026, “A Theoretical Analysis of Generalization Dynamics in Neural Networks under Gradient Descent with Weight Decay”. Corollary 3 bounds the residence time needed to guarantee a reduction in the upper bound; Section 4 does not promise an exact grokking time for a particular experiment. [`"In this sense, grokking is the “worst case” of generalization within our framework: even after optimization succeeds, the oscillation terms require additional time to decay in the small-loss region."`](../papers/2609.07755.a-theoretical-analysis-of-generalization-dynamics-in-neural-networks-under-gradient-descent-with-weight-decay/2609.07755.a-theoretical-analysis-of-generalization-dynamics-in-neural-networks-under-gradient-descent-with-weight-decay.card.md#p21-2)
+
 ## Passing mentions
 
 Works that only mention the notion — a literature review, a related-work paragraph, a passing citation — without examining it.

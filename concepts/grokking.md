@@ -464,6 +464,10 @@ Also (the time of the jump): [`"A surge in accuracy occurs at 15B tokens."`](../
 **\[3.34\]** 2411.03541 — Kumar, Bordelon, Pehlevan, Murthy & Gershman 2024, "Do Mice Grok? Glimpses of Hidden Progress During Overtraining in Sensory Cortex". The only transfer of the grokking vocabulary to data from a living cortex: in mice whose behaviour is at the ceiling, the internal measures of the piriform cortex keep growing. Nuance: the title's question goes unanswered — an abrupt transition in generalisation is shown only in a synthetic MLP, while in the biological data there is no generalisation curve over time at all. [`"In deep learning, this has changed with the discovery of the grokking phenomenon (Power et al. 2022), whereby neural networks first fit their training data to high accuracy, then many epochs of training later (“overtraining”), abruptly generalize"`](../papers/2411.03541.do-mice-grok-glimpses-of-hidden-progress-during-overtraining-in-sensory-cortex/original/2411.03541.do-mice-grok-glimpses-of-hidden-progress-during-overtraining-in-sensory-cortex.md#p2-2).\
 Also (where the transition is shown): [`"There is an abrupt grokking-like transition in test accuracy (the fraction of probe trials correctly classified) during the overtraining period"`](../papers/2411.03541.do-mice-grok-glimpses-of-hidden-progress-during-overtraining-in-sensory-cortex/original/2411.03541.do-mice-grok-glimpses-of-hidden-progress-during-overtraining-in-sensory-cortex.md#p8-2).
 
+###### ref-3-72
+
+**\[3.72\]** 2609.07755 — Wang, Kevrekidis & Belkin 2026, “A Theoretical Analysis of Generalization Dynamics in Neural Networks under Gradient Descent with Weight Decay”. A theoretical characterization of delay under GD with weight decay; a sufficient condition, rather than a universal criterion for an observed jump. [`"In the present decomposition, the optimization error has already become small, but the prediction variation error has not yet decayed sufficiently."`](../papers/2609.07755.a-theoretical-analysis-of-generalization-dynamics-in-neural-networks-under-gradient-descent-with-weight-decay/2609.07755.a-theoretical-analysis-of-generalization-dynamics-in-neural-networks-under-gradient-descent-with-weight-decay.card.md#p21-2)
+
 ## Passing mentions
 
 Works that only mention the phenomenon — a literature review, a related-work paragraph, a passing citation — without examining it.
@@ -628,8 +632,8 @@ Also (the hedge and the picture of the curves): [`"observe grokking like train a
 ```
 concept:
   category: 1                    # 1. Phenomena
-  papers_linked: 162             # distinct papers across the reference sections (external works are not counted)
-  counted_at: 2026-08-28
+  papers_linked: 163             # distinct papers across the reference sections (external works are not counted)
+  counted_at: 2026-10-02
 ```
 
 ###### ref-5-5
